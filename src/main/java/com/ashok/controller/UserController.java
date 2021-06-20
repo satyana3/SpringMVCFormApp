@@ -15,6 +15,7 @@ public class UserController {
 	public String displayForm(Model model) {
 		System.out.println("I Am Satya");
 		System.out.println("I Am Satya i am from india");
+		System.out.println("final");
 		System.out.println("hi");
 		int i = 10;
 		model.addAttribute("user", new User());
